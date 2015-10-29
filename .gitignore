@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a,b,factorial;
+
+	cout << "This program will calculate the factorial of the integrerto enter /nPlease give me a number"<< endl;
+	cin >> a;
+
+	factorial = 1;
+
+	for(b=1;b<=a;b++){
+		factorial = b*factorial;
+	}
+
+	cout << "The factorial of the number is" << factorial << endl;
+	return 0;
+
+}
